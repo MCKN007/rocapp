@@ -75,6 +75,10 @@ void MainWindow::on_pushButton_11_clicked(bool checked)
 }
 void MainWindow::on_pushButton_12_clicked(bool checked)
 {
-      ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\RocketExe\\rocket_13.exe",NULL,NULL,SW_SHOW);
+      ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\exe\\rocket_13.exe",NULL,NULL,SW_SHOW);
+}
+void MainWindow::on_pushButton_13_clicked(bool checked)
+{
+    ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\exe\\System_OP.exe",NULL,NULL,SW_SHOW);
 }
 
