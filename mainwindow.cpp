@@ -81,4 +81,18 @@ void MainWindow::on_pushButton_13_clicked(bool checked)
 {
     ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\exe\\System_OP.exe",NULL,NULL,SW_SHOW);
 }
+void MainWindow::on_pushButton_14_clicked(bool checked)
+{
+     ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\RocketExcel\\rocket_1.xls",NULL,NULL,SW_SHOW);
+}
 
+
+void MainWindow::on_pushButton_15_clicked(bool checked)
+{
+     ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\RocketExcel\\rocket_2.xls",NULL,NULL,SW_SHOW);
+}
+
+void MainWindow::on_pushButton_16_clicked(bool checked)
+{
+       ShellExecute(NULL,L"open",L"C:\\Program Files\\rocapp\\RocketExcel\\rocket_3.xlsm",NULL,NULL,SW_SHOW);
+}
